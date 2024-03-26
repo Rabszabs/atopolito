@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">atopolito</string>
+    <string name="btn_enviar">send</string>
+    <string name="et_digitealgo">type</string>
+</resources>
