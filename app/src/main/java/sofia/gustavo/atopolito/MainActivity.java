@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Button btn_enviar = findViewById(R.id.btn_enviar); //obtem dados do botao enviar
         btn_enviar.setOnClickListener(new View.OnClickListener() {//configura botao, define o que acontece ao clicar
             @Override
-            public void onClick(View v) { //quando houver clique, é executado; v = botão
+            public void onClick(View v) { //quando houver clique, é executado; v = botãohhhhhhhhhhwqwwwww
                 EditText et_digitealgo = findViewById(R.id.et_digitealgo); //obtem dados da caixa de texto e guarda na variavel
                 String textoDigitado = et_digitealgo.getText().toString(); //seleciona tipo string pra uma nova variavel dos dados da caixa de texto
 
@@ -26,5 +26,6 @@ public class MainActivity extends AppCompatActivity {
                 //   startActivity(i);//carrega prox pagina     0
             }
         });
+
     }
 }
