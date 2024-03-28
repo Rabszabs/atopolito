@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
                 EditText et_digitealgo = findViewById(R.id.et_digitealgo); //obtem dados da caixa de texto e guarda na variavel
                 String textoDigitado = et_digitealgo.getText().toString(); //seleciona tipo string pra uma nova variavel dos dados da caixa de texto
 
-                // Intent i = new Intent(MainActivity.this, NextActivity.class);//começa a carregar a proxima pagina
-                //   startActivity(i);//carrega prox pagina     0
+                Intent i = new Intent(MainActivity.this, NextActivity.class);//começa a carregar a proxima pagina
+                startActivity(i);//carrega prox pagina     0
             }
         });
 
